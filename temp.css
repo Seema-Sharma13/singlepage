@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin-top: 6px;  
+  background-color:rgb(53, 52, 52);
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(91, 91, 91); 
+    
+  }
+  a{
+    background-color:rgb(163, 158, 158);
+  }
+li {
+    float: right;
+   margin-left: 2cm;
+   font-weight:900;
+    display: inline;
+    padding-right: 22px;
+    font-size: 25px;
+   
+}
+
+.cont{
+    background-color: rgb(248, 212, 246);
+    padding: 120px 60px 120px 60px;
+    color: rgb(6, 6, 79);
+}
+button{
+    background-color: rgb(207, 194, 9);
+    padding: 4px 4px 4px 4px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:black;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color:rgb(177, 176, 176);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .col-1,.col-2 {
+    float: left;
+    width: 50%;
+}
+.footer{
+  background-color: black;
+  padding: 15px 15px 15px 15px;
+  display: flex;
+  width: 100%;
+}
+.footer .box {
+  text-align: center;
+  width: 40%;
+  background-color: rgb(152, 155, 155);
+}
+.box-2 ul{
+  width: 100%;
+  background-color: rgb(152, 155, 155);
+  display: grid;
+  text-align: center;
+
+}
+@media only screen and (max-width:900px) {
+  /* For mobile phones: */
+  body {
+    width: 100%;
+    background-color: rgb(247, 169, 203);
+    
+  }
+}
+
+  
+
+
+
+
